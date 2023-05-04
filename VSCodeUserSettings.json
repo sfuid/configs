@@ -1,36 +1,67 @@
 {
-  "window.zoomLevel": 0,
+  "http.proxyStrictSSL": false,
+  "http.proxySupport": "off",
+  "http.systemCertificates": false,
+
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Atom One Dark",
-  "editor.tabSize": 2,
-  "editor.fontSize": 18,
-  "editor.fontWeight": "100",
-  "editor.useTabStops": true,
-  "editor.formatOnSave": true,
-  "editor.tabCompletion": "on",
-  "editor.fontLigatures": true,
-  "editor.renderWhitespace": "all",
-  "editor.trimAutoWhitespace": true,
-  "editor.snippetSuggestions": "top",
-  "editor.quickSuggestions": { "other": true },
+  "vsicons.dontShowNewVersionMessage": true,
   "explorer.confirmDragAndDrop": true,
   "debug.console.fontSize": 16,
   "markdown.preview.fontSize": 16,
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.rendererType": "dom",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "workbench.iconTheme": "vscode-icons",
   "files.eol": "\n",
   "files.autoSave": "off",
   "files.encoding": "utf8bom",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "prettier.semi": true,
-  "prettier.printWidth": 120,
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": false,
-  "prettier.tslintIntegration": true,
-  "prettier.eslintIntegration": true,
-  "prettier.stylelintIntegration": true,
-  "vsicons.dontShowNewVersionMessage": true
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "editor.fontFamily": "JetBrains Mono NL Medium, Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "100",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.useTabStops": true,
+  "editor.formatOnSave": false,
+  "editor.tabCompletion": "on",
+  "editor.renderWhitespace": "all",
+  "editor.trimAutoWhitespace": true,
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.quickSuggestions": {
+    "other": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "debug.javascript.resourceRequestOptions": {
+    "https": {
+      "rejectUnauthorized": false
+    }
+  },
 }
